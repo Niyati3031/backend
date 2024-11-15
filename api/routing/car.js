@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const {getAllCars, addCars, getCarById, deleteCar, updateCar, getCarByTitle, getCarByDesc, getCarByTags} = require("../api/controller/car");
+const {getAllCars, addCars, getCarById, deleteCar, updateCar, getCarByTitle, getCarByDesc, getCarByTags} = require("../controller/car");
 
 const postRouter = Router();
 

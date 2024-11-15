@@ -3,10 +3,10 @@ var mongoose = require('mongoose');
 var dotenv = require('dotenv');
 const bodyParser = require('body-parser');
 
-const userRouter =  require("./routing/user");
-const carRouter = require('./routing/car');
+const userRouter =  require("../api/routing/user");
+const carRouter = require('../api/routing/car');
 const cors = require('cors');
-const { User } = require('./models/user');
+const { User } = require('../api/models/user');
 
 const app = express();
 dotenv.config();
